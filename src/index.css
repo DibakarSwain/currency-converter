@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "urbanist";
+  letter-spacing: 0.1rem;
+}
+
+html {
+  font-family: 62.5%;
+}
+
+body {
+  background-color: #1c2833;
+  background-image: url("money1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fdfefe;
+}
+
+.currency-converter {
+  /* max-width: 60rem; */
+  /* height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.currency-div {
+  padding: 3.2rem;
+  /* background-color: #fdfefe; */
+  background-image: linear-gradient(to top, #000000 0%, #181e28 100%);
+  color: #81a0bd;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.currency-selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: rgb(211, 28, 28);
+}
+
+input {
+  padding: 0.3rem;
+  background-color: #11151c;
+  border: none;
+  color: white;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.1rem;
+  /* color: #fdfefe; */
+  -border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -ms-border-radius: 0.1rem;
+  -o-border-radius: 0.1rem;
+
+  background: linear-gradient(135deg, #e92a2a 0%, #764ba2 100%);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section button:hover {
+  /* border: 1px solid #0099cc; */
+  background: linear-gradient(135deg, #e92a2a 0%, #764ba2 100%);
+  color: #ffffff;
+  /* padding: 5px 10px; */
+}
+
+button:disabled,
+button[disabled] {
+  /* border: 1px solid #999999; */
+  background-color: #cccccc;
+  color: #666666;
+}
+
+h2 {
+  color: rgb(211, 28, 28);
+}
+
+select {
+  background-color: black;
+  color: white;
+  border: none;
+}
+option:hover {
+  background-color: red;
+}
